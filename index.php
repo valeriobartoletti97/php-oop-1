@@ -4,9 +4,11 @@ include __DIR__ . '/Views/header.php'
 
 ?>
 
-        <main>
-            <div class="row">
-
+        <main class="mt-5">
+            <div class="row gy-5">
+                <?php foreach($movies as $movie) {
+                    $movie->printCard();
+                }?>
             </div>
         </main>
         

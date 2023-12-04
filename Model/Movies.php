@@ -24,6 +24,14 @@ class Movie {
             return $template;
         }
     }
+
+    public function printCard(){
+        $image = $this->poster_path;
+        $title = $this->title;
+        $content = $this->overview;
+        $vote = $this->vote_average;
+        include __DIR__ . '/../Views/card.php';
+    }
 }
 
 $movieString = file_get_contents(__DIR__ . '/movie_db.json');
