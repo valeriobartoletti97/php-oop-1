@@ -13,8 +13,14 @@
 }
 
 h1{
-    color:var(--ut-orange)
+    color:var(--ut-orange);
+    font-weight: 800
 }
 body{
     background-color: var(--prussian-blue);
+}
+
+footer{
+    color:black;
+    font-weight: 600;
 }
