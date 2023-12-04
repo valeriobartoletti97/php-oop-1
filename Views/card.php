@@ -1,4 +1,4 @@
-<div class="col-12 col-md-4 col-lg-3 ">
+<div class="col-12 col-md-4 col-lg-3 px-3 mb-5 movie-wrapper">
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -11,9 +11,6 @@
                     <h5 class="text-uppercase">
                         <?php echo $title ?>
                     </h5>
-                    <div>
-                        <img class="<?php echo $image ?>" alt="<?php echo $title ?>">
-                    </div>
                     <p class="plot">"
                         <?php echo $content ?>"
                     </p>

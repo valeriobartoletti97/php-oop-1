@@ -5,7 +5,7 @@ include __DIR__ . '/Views/header.php'
 ?>
 
         <main class="mt-5">
-            <div class="row gy-5">
+            <div class="row">
                 <?php foreach($movies as $movie) {
                     $movie->printCard();
                 }?>
